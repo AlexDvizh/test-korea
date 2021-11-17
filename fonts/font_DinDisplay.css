@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "PF DinDisplay Pro"; 
+    src: url("/fonts/DIN-PRO-BOLD.TTF") format("truetype"); 
+    font-style: normal; 
+    font-weight: 900; 
+}
+
+@font-face {
+    font-family: "PF DinDisplay Pro"; 
+    src: url("/fonts/DIN-PRO-CONDENSED-MEDIUM.TTF") format("truetype"); 
+    font-style: normal; 
+    font-weight: 500; 
+}
+
+@font-face {
+    font-family: "PF DinDisplay Pro"; 
+    src: url("/fonts/DINPRO-CONDLIGHT.OTF") format("truetype"); 
+    font-style: normal; 
+    font-weight: 300; 
+}
