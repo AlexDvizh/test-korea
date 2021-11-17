@@ -291,7 +291,3 @@ vkLink4.addEventListener('click', () => {
     result4.classList.add('hidden');
     promocode.classList.remove('hidden');
 })
-
-
-
-// document.getElementById('vk-share').innerHTML = VK.Share.button('http://127.0.0.1:5500/', {type: 'custom', text: 'ПОДЕЛИТЬСЯ'}); 
