@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script type="text/javascript" src="https://vk.com/js/api/share.js?95" charset="windows-1251"></script>
+    <title>Тест</title>
+</head>
+<body class="root">
+
+    <section class="test">
+        <div class="question question_one">
+            <p class="question__status">Вопрос 1/5</p>
+            <h3 class="question__title">Вы любите отдыхать:</h3>
+            <div class="answer">
+                <button class="answer__button one">В компании людей</button>
+                <button class="answer__button two">В одиночестве</button>
+                <button class="answer__button three">Зависит от настроения</button>
+            </div>
+        </div>
+        <div class="question question_two hidden">
+            <p class="question__status">Вопрос 2/5</p>
+            <p class="question__title">Как проходят ваши выходные:</p>
+            <div class="answer">
+                <button class="answer__button four">Встречаюсь с друзьями в баре/клубе</button>
+                <button class="answer__button five">Гуляю по парку один или с парой-тройкой друзей</button>
+                <button class="answer__button six">Сижу дома - читаю книги, играю в игры</button>
+                <button class="answer__button seven">Хожу в гости к своим друзьям </button>
+            </div>
+        </div>
+        <div class="question question_three hidden">
+            <p class="question__status">Вопрос 3/5</p>
+            <p class="question__title">От отпуска вы хотите:</p>
+            <div class="answer">
+                <button class="answer__button eight">Максимальный отдых, расслабление</button>
+                <button class="answer__button nine">Забыть о текущих делах, перезагрузиться</button>
+                <button class="answer__button ten">Много эмоций и впечатлений</button>
+                <button class="answer__button eleven">Интеллектуальное, культурное восприятие</button>
+            </div>
+        </div>
+        <div class="question question_four hidden">
+            <p class="question__status">Вопрос 4/5</p>
+            <p class="question__title">Какие фильмы вы больше любите смотреть?</p>
+            <div class="answer">
+                <button class="answer__button twelve">Легкие романтические фильмы</button>
+                <button class="answer__button thirteen">Забавные комедии</button>
+                <button class="answer__button fourteen">Детективы, над которыми нужно подумать</button>
+                <button class="answer__button fifteen">Люблю пощекотать нервы триллерами </button>
+            </div>
+        </div>
+        <div class="question question_five hidden">
+            <p class="question__status">Вопрос 5/5</p>
+            <p class="question__title">Открытие новой страны для вас - это, прежде всего:</p>
+            <div class="answer">
+                <button class="answer__button sixteen">Открытие новой кухни/вкусов</button>
+                <button class="answer__button seventeen">Знакомство с культурой и традициями страны</button>
+                <button class="answer__button eighteen">Шоппинг/тусовки</button>
+                <button class="answer__button nineteen">Новые люди и знакомства</button>
+            </div>
+        </div>
+
+        <div class="result result1 hidden">
+            <div class="result__video-wrap">
+                <video class="result__video result__video_position" src="/video/healing1.mp4" controls="controls"></video>
+            </div>
+            <a class="more-info-link more-info-link_position" href="http://russian.visitkorea.or.kr/rus/ATT/3_3_view.jsp?cid=2537895"></a>
+            <div class="social-links"> 
+                <a class="share-facebook" id="fb-share" href="https://www.facebook.com/sharer/sharer.php?" target="_blank">
+                    <div class="fb">
+                    </div>
+                </a>
+                <a class="share-vk" id="vk-share" href="http://vk.com/share.php?url=127.0.0.1:5500&description={$desc}&image={$image}&noparse=true" target="_blank">
+                    <div class="vk">
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="result result2 hidden">
+            <div class="result__video-wrap">
+                <video class="result__video result__video_position" src="/video/taste2.mp4" controls="controls"></video>
+            </div>
+            <a class="more-info-link more-info-link_position" href="http://russian.visitkorea.or.kr/rus/ATT/3_1_view.jsp?cid=274550"></a>
+            <div class="social-links"> 
+                <a class="share-facebook" id="fb-share2" href="https://www.facebook.com/sharer/sharer.php?" target="_blank">
+                    <div class="fb"></div>
+                </a>
+                <a class="share-vk" id="vk-share2" href="http://vk.com/share.php?url=127.0.0.1:5500&description={$desc}&image={$image}&noparse=true" target="_blank">
+                    <div class="vk">
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="result result3 hidden">
+            <div class="result__video-wrap">
+                <video class="result__video" src="/video/beaty3.mp4" controls="controls"></video>
+            </div>
+            <a class="more-info-link" href="http://russian.visitkorea.or.kr/rus/ATT/3_1_view.jsp?cid=2695729"></a>
+            <div class="social-links"> 
+                <a class="share-facebook" id="fb-share3" href="http://www.facebook.com/sharer/sharer.php?s=100&p%5Btitle%5D=TITLE&p%5Bsummary%5D=DESC&p%5Burl%5D=URL&p%5Bimages%5D%5B0%5D=IMG_PATH" target="_blank">
+                    <div class="fb"></div>
+                </a>
+                <a class="share-vk" id="vk-share3" href="http://vk.com/share.php?url=URL&title=TITLE&description=DESC&image=IMG_PATH&noparse=true" target="_blank">
+                    <div class="vk"></div>
+                </a>
+            </div>
+        </div>
+
+        <div class="result result4 hidden">
+            <div class="result__video-wrap">
+                <video class="result__video" src="/video/vibes4.mp4" controls="controls"></video>
+            </div>
+            <a class="more-info-link" href="http://russian.visitkorea.or.kr/rus/ATT/3_5_list.jsp"></a>
+            <div class="social-links"> 
+                <a class="share-facebook" id="fb-share4" href="http://www.facebook.com/sharer/sharer.php?s=100&p%5Btitle%5D=TITLE&p%5Bsummary%5D=DESC&p%5Burl%5D=URL&p%5Bimages%5D%5B0%5D=IMG_PATH" target="_blank">
+                    <div class="fb"></div>
+                </a>
+                <a class="share-vk" id="vk-share4" href="http://vk.com/share.php?url=URL&title=TITLE&description=DESC&image=IMG_PATH&noparse=true" target="_blank">
+                    <div class="vk"></div>
+                </a>
+            </div>
+        </div>
+
+        <div class="result result5 hidden">
+            <div class="result__video-wrap">
+                <video class="result__video" src="/video/light5.mp4" controls="controls"></video>
+            </div>
+            <a class="more-info-link" href="http://russian.visitkorea.or.kr/rus/ATT/3_4_view.jsp?cid=2537931"></a>
+            <div class="social-links"> 
+                <a class="share-facebook" href="http://www.facebook.com/sharer/sharer.php?s=100&p%5Btitle%5D=TITLE&p%5Bsummary%5D=DESC&p%5Burl%5D=URL&p%5Bimages%5D%5B0%5D=IMG_PATH" target="_blank">
+                    <div class="fb"></div>
+                </a>
+                <a class="share-vk" href="http://vk.com/share.php?url=URL&title=TITLE&description=DESC&image=IMG_PATH&noparse=true" target="_blank">
+                    <div class="vk"></div>
+                </a>
+            </div>
+        </div>
+
+        <div class="result result6 hidden">
+            <div class="result__video-wrap">
+                <video class="result__video" src="/video/advantures6.mp4" controls="controls"></video>
+            </div>
+            <a class="more-info-link" href="http://russian.visitkorea.or.kr/rus/TRI/2_6_view.jsp?cid=2678193"></a>
+            <div class="social-links"> 
+                <a class="share-facebook" href="http://www.facebook.com/sharer/sharer.php?s=100&p%5Btitle%5D=TITLE&p%5Bsummary%5D=DESC&p%5Burl%5D=URL&p%5Bimages%5D%5B0%5D=IMG_PATH" target="_blank">
+                    <div class="fb"></div>
+                </a>
+                <a class="share-vk" href="http://vk.com/share.php?url=URL&title=TITLE&description=DESC&image=IMG_PATH&noparse=true" target="_blank">
+                    <div class="vk"></div>
+                </a>
+            </div>
+        </div>
+
+        <div class="promocode hidden">
+            <h3 class="promocode__title">СПАСИБО!</h3>
+            <p class="promocode__subtitle">Ваш промокод:</p>
+            <div class="promocode__box">
+                <p class="promocode__text">JFEWHUVFR</p>
+            </div>
+            <div class="present">
+                <img class="present__img" src="/images/present.png">
+                <p class="present__text">Активируйте промокод <a class="present__link" href="https://megogo.ru/ru/code">по ссылке</a></p>
+            </div>
+        </div>
+
+        <div>
+            
+        </div>
+
+
+    </section>
+    
+    <script src="index.js"></script>
+</body>
+</html>

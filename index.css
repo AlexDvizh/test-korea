@@ -1,0 +1,227 @@
+@import url('fonts/font_DinDisplay.css');
+
+.root {
+    background-color: rgb(145, 145, 145);
+    display: flex;
+    justify-content: center;
+    font-family: PF DinDisplay Pro, Avenir ,Helvetica ,Arial ,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: #2c3e50;
+    line-height: 1.5;
+}
+
+.test {
+    background-image: url('/images/fon.png');
+    max-width: 1367px;
+    min-width: 1367px;
+    height: 1100px;
+    display: flex;
+    justify-content: center;
+}
+
+.result {
+    max-width: 1367px;
+    min-width: 1367px;
+    height: 1100px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.result1 {
+    background-image: url('/images/result1.png');
+}
+
+.result2 {
+    background-image: url('/images/result2.png');
+}
+
+.result3 {
+    background-image: url('/images/result3.png');
+}
+
+.result4 {
+    background-image: url('/images/result4.png');
+}
+
+.result5 {
+    background-image: url('/images/result5.png');
+}
+
+.result6 {
+    background-image: url('/images/result6.png');
+}
+
+.result__video-wrap {
+    width: 476px; 
+    height: 272px;
+    
+}
+
+.result__video {
+    box-sizing: border-box;
+    width: 476px; 
+    height: 272px;
+    position: absolute;
+    top: 290px;
+    right: 447px;
+}
+
+.result__video_position {
+    position: absolute;
+    top: 315px;
+    right: 447px;
+}
+
+.question {
+    margin-top: 90px;
+}
+
+.question__status {
+    font-size: 29px;
+    text-align: center;
+    margin: 0;
+}
+
+.question__title {
+    font-size: 48px;
+    font-weight: 700;
+    margin: 15px 0 35px 0;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.answer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.answer__button {
+    width: 600px;
+    border: 3px solid #2c3e50;
+    background-color: white;
+    padding: 20px 0;
+    margin-bottom: 18px;
+    font-size: 23px;
+    color: #2c3e50;
+    font-weight: bold;
+}
+
+.answer__button_clicked {
+    background-color: #002A57;
+    color: white;
+}
+
+.answer__button:hover {
+    box-shadow: 0 0 8px #00aeff;
+    cursor: pointer;
+}
+
+.more-info-link {
+    position: absolute;
+    top: 570px;
+    right: 470px;
+    width: 400px;
+    height: 50px;
+    /* border: 1px solid red; */
+}
+
+.more-info-link_position {
+    position: absolute;
+    top: 590px;
+}
+
+.more-info-link:hover {
+    cursor: pointer;
+}
+
+.social-links {
+    position: absolute;
+    display: flex;
+    bottom: 280px;
+    left: calc(50% - 100px);
+}
+
+.share-facebook {
+    box-sizing: border-box;
+}
+
+.share-vk {
+    box-sizing: border-box;
+}
+
+.fb {
+    width: 70px;
+    height: 70px;
+    margin-right: 30px;
+}
+
+.vk {
+    width: 80px;
+    height: 70px;
+}
+
+.promocode {
+    color: #002A57;
+}
+
+.promocode__title {
+    margin-top: 160px;
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.promocode__subtitle {
+    margin-top: 60px;
+    font-size: 36px;
+    line-height: 105px;
+    text-align: center;
+}
+
+.promocode__box {
+    background-color: #002A57;
+    width: 613px;
+    height: 78px;
+    width: 613px;
+}
+
+.promocode__text {
+    margin-top: 30px;
+    color: white;
+    font-size: 40px;
+    line-height: 78px;
+    text-align: center;
+}
+
+.present {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.present__img {
+    height: 48px;
+    width: 48px;
+}
+
+.present__text {
+    margin-left: 10px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 10px;
+}
+
+.present__link {
+    color:rgb(58, 212, 240)
+}
+
+
+
