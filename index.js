@@ -1,3 +1,4 @@
+//ссылки для шеринга
 const fbLink = document.getElementById('fb-share');
 const vkLink = document.getElementById('vk-share');
 const fbLink2 = document.getElementById('fb-share2');
@@ -6,6 +7,10 @@ const fbLink3 = document.getElementById('fb-share3');
 const vkLink3 = document.getElementById('vk-share3');
 const fbLink4 = document.getElementById('fb-share4');
 const vkLink4 = document.getElementById('vk-share4');
+const fbLink5 = document.getElementById('fb-share5');
+const vkLink5 = document.getElementById('vk-share5');
+const fbLink6 = document.getElementById('fb-share6');
+const vkLink6 = document.getElementById('vk-share6');
 
 const promocode = document.querySelector('.promocode')
 
@@ -288,6 +293,26 @@ fbLink4.addEventListener('click', () => {
 })
 vkLink4.addEventListener('click', () => {
     testArea.classList.remove('result4');
+    result4.classList.add('hidden');
+    promocode.classList.remove('hidden');
+})
+fbLink5.addEventListener('click', () => {
+    testArea.classList.remove('result5');
+    result4.classList.add('hidden');
+    promocode.classList.remove('hidden');
+})
+vkLink5.addEventListener('click', () => {
+    testArea.classList.remove('result5');
+    result4.classList.add('hidden');
+    promocode.classList.remove('hidden');
+})
+fbLink6.addEventListener('click', () => {
+    testArea.classList.remove('result6');
+    result4.classList.add('hidden');
+    promocode.classList.remove('hidden');
+})
+vkLink6.addEventListener('click', () => {
+    testArea.classList.remove('result6');
     result4.classList.add('hidden');
     promocode.classList.remove('hidden');
 })
