@@ -1,3 +1,11 @@
+const promocodes = [
+    "QWEFERE",
+    "EWEQWWE",
+    "14EQWDR",
+    "JGDUMP5",
+    "UOMK124"
+]
+
 //ссылки для шеринга
 const fbLink = document.getElementById('fb-share');
 const vkLink = document.getElementById('vk-share');
@@ -13,6 +21,7 @@ const fbLink6 = document.getElementById('fb-share6');
 const vkLink6 = document.getElementById('vk-share6');
 
 const promocode = document.querySelector('.promocode')
+const promocodesArea = document.querySelector('.promocode__text');
 
 const testArea = document.querySelector('.test');
 const resultArea = document.querySelector('.result')
@@ -254,65 +263,98 @@ addEventListenerFiveQuestion(seventeen);
 addEventListenerFiveQuestion(eighteen);
 addEventListenerFiveQuestion(nineteen);
 
+//добавление кнопки плеера 
+// const startVideoButton = document.querySelector('.play1')
+// const startVideoButton3 = document.querySelector('.play3')
+
+// window.onload = function() {
+// 	video = document.querySelector(".result__video");
+// };
+
+
+
+// function play() {
+//     if(video.paused) {
+//         video.play();
+//         startVideoButton.style.opacity = '0';
+//     } else {
+//         startVideoButton.style.opacity = '';
+//     }
+// }
+
+// startVideoButton.addEventListener('click', play)
+// startVideoButton3.addEventListener('click', play)
+
+
 //логика выдачи промокода
+const randomPromocode = promocodes[Math.floor(Math.random() * promocodes.length)];
+
+function changeThemeAndTextPromocodes() {
+    promocode.classList.remove('hidden');
+    promocodesArea.textContent = randomPromocode; 
+}
 
 fbLink.addEventListener('click', () => {
     testArea.classList.remove('result1');
     result1.classList.add('hidden');
-    promocode.classList.remove('hidden');
+    changeThemeAndTextPromocodes();
 })
 vkLink.addEventListener('click', () => {
     testArea.classList.remove('result1');
     result1.classList.add('hidden');
-    promocode.classList.remove('hidden');
+    changeThemeAndTextPromocodes();
 })
 fbLink2.addEventListener('click', () => {
     testArea.classList.remove('result2');
     result2.classList.add('hidden');
-    promocode.classList.remove('hidden');
+    changeThemeAndTextPromocodes(); 
 })
 vkLink2.addEventListener('click', () => {
     testArea.classList.remove('result2');
     result2.classList.add('hidden');
-    promocode.classList.remove('hidden');
+    changeThemeAndTextPromocodes(); 
 })
 fbLink3.addEventListener('click', () => {
     testArea.classList.remove('result3');
     result3.classList.add('hidden');
-    promocode.classList.remove('hidden');
+    changeThemeAndTextPromocodes();
 })
 vkLink3.addEventListener('click', () => {
     testArea.classList.remove('result3');
     result3.classList.add('hidden');
-    promocode.classList.remove('hidden');
+    changeThemeAndTextPromocodes();
 })
 fbLink4.addEventListener('click', () => {
     testArea.classList.remove('result4');
     result4.classList.add('hidden');
-    promocode.classList.remove('hidden');
+    changeThemeAndTextPromocodes();
 })
 vkLink4.addEventListener('click', () => {
     testArea.classList.remove('result4');
     result4.classList.add('hidden');
-    promocode.classList.remove('hidden');
+    changeThemeAndTextPromocodes();
 })
 fbLink5.addEventListener('click', () => {
     testArea.classList.remove('result5');
-    result4.classList.add('hidden');
-    promocode.classList.remove('hidden');
+    result5.classList.add('hidden');
+    changeThemeAndTextPromocodes();
 })
 vkLink5.addEventListener('click', () => {
     testArea.classList.remove('result5');
-    result4.classList.add('hidden');
-    promocode.classList.remove('hidden');
+    result5.classList.add('hidden');
+    changeThemeAndTextPromocodes();
 })
 fbLink6.addEventListener('click', () => {
     testArea.classList.remove('result6');
     result4.classList.add('hidden');
-    promocode.classList.remove('hidden');
+    changeThemeAndTextPromocodes();
 })
 vkLink6.addEventListener('click', () => {
     testArea.classList.remove('result6');
     result4.classList.add('hidden');
-    promocode.classList.remove('hidden');
+    changeThemeAndTextPromocodes();
 })
+
+
+
+

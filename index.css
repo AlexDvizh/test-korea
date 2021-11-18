@@ -1,5 +1,6 @@
 @import url('./fonts/font_DinDisplay.css');
 
+
 .root {
     background-color: rgb(145, 145, 145);
     display: flex;
@@ -11,6 +12,8 @@
     -webkit-font-smoothing: antialiased;
     color: #2c3e50;
     line-height: 1.5;
+    width: 100vw;
+    height: 100vh;
 }
 
 .test {
@@ -69,6 +72,23 @@
     position: absolute;
     top: 290px;
     right: 447px;
+}
+
+.play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -149px;
+    margin-left: -39px;
+    width: 74px;
+    height: 75px;
+    background: url('./images/play.png') no-repeat;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.play:hover {
+    opacity: 0.6;
 }
 
 .result__video_position {

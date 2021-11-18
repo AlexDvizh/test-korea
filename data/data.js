@@ -1,5 +1,5 @@
 export const promocodes = [
-    "QWEFERE",
+    "Q99FERE",
     "EWEQWWE",
     "14EQWDR",
     "JGDUMP5",
