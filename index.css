@@ -7,7 +7,7 @@
     align-content: center;
     width: calc(100% - 50px);
     margin: auto;
-    font-family: PF DinDisplay Pro, Avenir ,Helvetica ,Arial ,sans-serif;
+    font-family: 'PF DinDisplay Pro', Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     color: #2c3e50;
     line-height: 1.5;
