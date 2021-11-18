@@ -14,7 +14,7 @@
 }
 
 .test {
-    background-image: url('/images/fon.png');
+    background-image: url('./images/fon.png');
     background-size: contain;
     background-repeat: no-repeat;
     width: 1367px;
@@ -33,27 +33,27 @@
 }
 
 .result1 {
-    background-image: url('/images/result1.png');
+    background-image: url('./images/result1.png');
 }
 
 .result2 {
-    background-image: url('/images/result2.png');
+    background-image: url('./images/result2.png');
 }
 
 .result3 {
-    background-image: url('/images/result3.png');
+    background-image: url('./images/result3.png');
 }
 
 .result4 {
-    background-image: url('/images/result4.png');
+    background-image: url('./images/result4.png');
 }
 
 .result5 {
-    background-image: url('/images/result5.png');
+    background-image: url('./images/result5.png');
 }
 
 .result6 {
-    background-image: url('/images/result6.png');
+    background-image: url('./images/result6.png');
 }
 
 .result__video-wrap {
